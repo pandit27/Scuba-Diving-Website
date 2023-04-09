@@ -588,3 +588,12 @@ h6,
     height: 2.4rem;
     width: auto;
 }
+
+.main-footer {
+    /* background-color: rgb(107, 106, 111); */
+    /* color: #868da5; */
+}
+
+body {
+    overflow-x: hidden;
+}
