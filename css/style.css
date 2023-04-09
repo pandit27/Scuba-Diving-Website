@@ -657,3 +657,20 @@ video {
 .iframe {
   box-shadow: 10px 10px cyan;
 }
+
+.btn-neon {
+    background-color: #fff;
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-neon:hover {
+    background-color: #f77;
+    color: #fff;
+    box-shadow: 0 0 20px #f77;
+    text-shadow: 0 0 20px #f77;
+  }
+  
