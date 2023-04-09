@@ -221,11 +221,6 @@ h6,
 }
 
 @media (max-width: 576px) {
-    #header-carousel {
-        height: 120%;
-        width: 100%;
-    }
-
   .carousel-caption h5 {
     font-size: 14px;
     font-weight: 500 !important;
@@ -594,13 +589,8 @@ h6,
     width: auto;
 }
 
-.main-footer {
-    /* background-color: rgb(107, 106, 111); */
-    /* color: #868da5; */
-}
-
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 #header-carousel {
