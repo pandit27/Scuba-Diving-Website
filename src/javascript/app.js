@@ -1,11 +1,11 @@
-$(window).scroll(function() {
+$(window).scroll(function () {
     if ($(window).scrollTop() >= 100) {
-      $('.navbar').addClass('sticky');
+        $('.navbar').addClass('sticky');
     } else {
-      $('.navbar').removeClass('sticky');
+        $('.navbar').removeClass('sticky');
     }
-  });
+});
 
-  $('.navbar-toggler').click(function() {
+$('.navbar-toggler').click(function () {
     $('.navbar-nav').toggleClass('show');
-  });
+});
