@@ -72,12 +72,14 @@
 @media (min-width: 480.6px) and (max-width: 575.5px) {
   .owl-carousel .owl-item .card .name {
     left: 24%;
+    /* height: 10%; */
   }
 }
 
 @media (max-width: 360px) {
   .owl-carousel .owl-item .card .name {
     left: 30%;
+    /* height: 5%; */
   }
 }
 
