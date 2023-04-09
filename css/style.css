@@ -576,3 +576,15 @@ h6,
 .carousel-item img {
   opacity: 2;
 }
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-img {
+    height: 2.4rem;
+    width: auto;
+}
