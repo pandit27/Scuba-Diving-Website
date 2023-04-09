@@ -1,19 +1,18 @@
 .whatsapp-popup {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    z-index: 999;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .whatsapp-popup:hover {
-    transform: scale(1.2);
-  }
-  
-  .whatsapp-popup img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-  }
-  
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-popup:hover {
+  transform: scale(1.2);
+}
+
+.whatsapp-popup img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
