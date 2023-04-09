@@ -617,10 +617,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 
 .carousel-caption-about {
   text-align: center;
+  z-index: 2;
 }
+
+.carousel-section
 
 /* -------------------------------- */

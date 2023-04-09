@@ -4,6 +4,7 @@
 .owl-carousel .owl-item {
   transition: all 0.3s ease-in-out;
   background-color: lightslategrey;
+  z-index: 1;
 }
 
 .owl-carousel .owl-item .card {
@@ -82,7 +83,7 @@
 
 .carousel-section {
     width: 100%;
-    height: 18rem;
+    height: 14rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -90,7 +91,15 @@
     background: url('https://cdn.pixabay.com/photo/2021/11/25/18/55/octopus-6824384__340.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    top: 8rem;
 }
+
+@media (min-width: 480.6px) and (max-width: 575.5px) {
+    .carousel-section {
+        height: 12rem;
+    }
+  }
 
 .carousel-section h5{
     color: white;
