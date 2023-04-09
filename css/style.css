@@ -607,5 +607,15 @@ body {
 }
 
 .font1 {
-    
+
 }
+
+.carousel-item {
+    height: 20rem;
+  }
+  
+  .carousel-caption {
+    /* bottom: 50%; */
+    /* transform: translateY(50%); */
+  }
+  
