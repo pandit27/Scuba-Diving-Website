@@ -625,6 +625,10 @@ body {
   z-index: 2;
 }
 
-.carousel-section
+@media (min-width: 480.6px) and (max-width: 575.5px) {
+    .carousel-about {
+        height: 100px;
+    }
+  }
 
 /* -------------------------------- */
