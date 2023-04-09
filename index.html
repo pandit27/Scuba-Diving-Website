@@ -40,6 +40,21 @@
         .carousel-item:first-child {
             display: block;
         }
+
+        .carousel-item.active,
+        .carousel-item-next {
+            transition: transform 0s ease !important;
+        }
+
+        .carousel-item-next.carousel-item-left,
+        .active.carousel-item-right {
+            transition: transform 0s ease !important;
+        }
+
+        .carousel-item-next,
+        .active.carousel-item-right {
+            transform: translateX(0) !important;
+        }
     </style>
 </head>
 
