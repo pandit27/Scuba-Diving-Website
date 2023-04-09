@@ -222,13 +222,13 @@ h6,
 
 @media (max-width: 576px) {
   .carousel-caption h5 {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 500 !important;
     overflow-x: hidden;
   }
 
   .carousel-caption h1 {
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 600 !important;
   }
 }
@@ -581,41 +581,46 @@ h6,
 }
 
 .center-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .logo-img {
-    height: 2.4rem;
-    width: auto;
+  height: 2.4rem;
+  width: auto;
 }
 
 body {
-    width: 100%;
-    overflow-x: hidden !important;
+  width: 100%;
+  overflow-x: hidden !important;
 }
 
 #header-carousel {
-    height: fit-content;
-    background-color: white;
+  height: fit-content;
+  background-color: white;
 }
 
 .button-carousel {
-    opacity: 0.1;
+  opacity: 0.1;
 }
 
 .font1 {
-
 }
 
-.carousel-item {
-    height: 20rem;
-  }
-  
-  .carousel-caption {
-    /* bottom: 50%; */
-    /* transform: translateY(50%); */
-  }
-  
+/* about section */
+/* ---------------------------------- */
+
+.carousel-item-about {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-caption-about {
+  text-align: center;
+}
+
+/* -------------------------------- */
