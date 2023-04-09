@@ -1,19 +1,6 @@
 /* Importing fonts from Google */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-/* Reseting */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: linear-gradient(to right, #101c81, #2a6ba3);
-  min-height: 100vh;
-}
-
 .owl-carousel .owl-item {
   transition: all 0.3s ease-in-out;
 }
