@@ -221,6 +221,11 @@ h6,
 }
 
 @media (max-width: 576px) {
+    #header-carousel {
+        height: 120%;
+        width: 100%;
+    }
+
   .carousel-caption h5 {
     font-size: 14px;
     font-weight: 500 !important;
@@ -596,4 +601,9 @@ h6,
 
 body {
     overflow-x: hidden;
+}
+
+#header-carousel {
+    height: fit-content;
+    background-color: white;
 }
