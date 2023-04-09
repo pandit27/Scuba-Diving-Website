@@ -97,3 +97,24 @@
   cursor: pointer;
   z-index: 999;
 }
+
+.btn-close {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    }
+    
+    .chatbot.active {
+    bottom: 30px;
+    }
+    
+    .chatbot.active .chatbot-body {
+    display: block;
+    }
+    
+    .chatbot .chatbot-body {
+    display: none;
+    }
