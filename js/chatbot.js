@@ -29,7 +29,7 @@ function botResponse(message) {
     const botMessage = document.createElement("div");
     botMessage.classList.add("chat-message");
 
-    if (message.includes("hi") || message.includes("hello")) {
+    if (message.includes("hi") || message.includes("hello") || message.includes("Hi") || message.includes("Hello")) {
         botMessage.innerHTML = `<p>Hello there!</p>`;
     } else if (message.includes("how are you")) {
         botMessage.innerHTML = `<p>I'm doing well, thank you for asking!</p>`;
