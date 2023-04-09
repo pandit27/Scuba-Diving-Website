@@ -663,17 +663,18 @@ video {
 }
 
 .btn-neon {
-  background-color: #fff;
+  background-color: #e1d6d6;
   color: black;
   border: 2px solid #fff;
+  border-radius: 4px;
   box-shadow: 0 0 10px #fff;
   text-shadow: 0 0 10px #fff;
   transition: all 0.3s ease-in-out;
 }
 
 .btn-neon:hover {
-  background-color: #f77;
+  background-color: rgb(241, 0, 181);
   color: #fff;
-  box-shadow: 0 0 20px #f77;
-  text-shadow: 0 0 20px #f77;
+  box-shadow: 0 0 20px rgb(241, 0, 181);
+  text-shadow: 0 0 20px rgb(241, 0, 181);
 }
