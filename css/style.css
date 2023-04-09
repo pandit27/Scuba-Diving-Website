@@ -638,6 +638,12 @@ body {
     height: 13em;
   }
   .card {
-    width: 50%;
+    width: 100%;
   }
 }
+
+video {
+    max-width: 100%;
+  }
+
+
