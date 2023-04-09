@@ -99,3 +99,97 @@ header {
     background-color: black;
     transform: translate(-50%, -50%);
   }
+
+  .navbar {
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+    vertical-align: middle;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .navbar-nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    color: #333;
+  }
+  
+  /* Style for the sticky navbar */
+  .sticky {
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+  }
+  
+  /* Style for the hamburger icon */
+  .navbar-toggler {
+    border: none;
+    color: #333;
+  }
+  
+  .navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #333;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-nav {
+      display: none;
+      text-align: left;
+    }
+  
+    .navbar-nav.show {
+      display: block;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .navbar-links {
+      display: none;
+    }
+    
+    .navbar-hamburger {
+      display: block;
+    }
+    
+    .navbar.sticky {
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .navbar.sticky .navbar-logo {
+      color: #333;
+    }
+    
+    .navbar.sticky .navbar-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+    
+    .navbar.sticky .navbar-links li {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
