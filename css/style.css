@@ -517,7 +517,7 @@ h6,
 /* zoom in animation in image in carousel */
 .carousel-item.active img {
   transform: scale(1.2);
-  transition: transform 5s ease-out;
+  transition: transform 9s ease-out;
 }
 
 .carousel-item:first-child {
@@ -600,4 +600,12 @@ body {
 #header-carousel {
     height: fit-content;
     background-color: white;
+}
+
+.button-carousel {
+    opacity: 0.1;
+}
+
+.font1 {
+    
 }
