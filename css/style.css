@@ -658,7 +658,9 @@ video {
   box-shadow: 10px 10px cyan;
 }
 
-
+.a-video{
+    background-color: transparent;
+}
 
 .btn-neon {
   background-color: #fff;
