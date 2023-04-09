@@ -3,6 +3,7 @@
 
 .owl-carousel .owl-item {
   transition: all 0.3s ease-in-out;
+  background-color: lightslategrey;
 }
 
 .owl-carousel .owl-item .card {
