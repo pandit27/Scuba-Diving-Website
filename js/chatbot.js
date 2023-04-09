@@ -1,6 +1,3 @@
-
-JavaScript:
-```js
 const chatbot = document.querySelector(".chatbot");
 const chatbotBtnOpen = document.querySelector(".btn-open");
 const chatbotBtnClose = document.querySelector(".btn-close");
