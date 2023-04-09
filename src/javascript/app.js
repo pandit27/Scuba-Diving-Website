@@ -5,4 +5,7 @@ $(window).scroll(function() {
       $('.navbar').removeClass('sticky');
     }
   });
-  
+
+  $('.navbar-toggler').click(function() {
+    $('.navbar-nav').toggleClass('show');
+  });
