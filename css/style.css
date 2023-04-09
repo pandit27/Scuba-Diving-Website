@@ -626,9 +626,18 @@ body {
 }
 
 @media (min-width: 480.6px) and (max-width: 575.5px) {
-    .carousel-about {
-        height: 100px;
-    }
+  .carousel-about {
+    height: 100px;
   }
+}
 
 /* -------------------------------- */
+
+@media only screen and (min-width: 768px) {
+  iframe {
+    height: 13em;
+  }
+  .card {
+    width: 50%;
+  }
+}
