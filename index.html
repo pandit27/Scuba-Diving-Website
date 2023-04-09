@@ -221,25 +221,25 @@
 
     <script>
         const headerCarousel = document.querySelector('#header-carousel');
-let startX, startY, isDragging = false;
+        let startX, startY, isDragging = false;
 
-headerCarousel.addEventListener('mousedown', e => {
-  startX = e.pageX - headerCarousel.offsetLeft;
-  startY = e.pageY - headerCarousel.offsetTop;
-  isDragging = true;
-});
+        headerCarousel.addEventListener('mousedown', e => {
+            startX = e.pageX - headerCarousel.offsetLeft;
+            startY = e.pageY - headerCarousel.offsetTop;
+            isDragging = true;
+        });
 
-headerCarousel.addEventListener('mousemove', e => {
-  if (!isDragging) return;
-  e.preventDefault();
-  const x = e.pageX - headerCarousel.offsetLeft;
-  const walk = (x - startX) * 3;
-  headerCarousel.scrollLeft = headerCarousel.scrollLeft - walk;
-});
+        headerCarousel.addEventListener('mousemove', e => {
+            if (!isDragging) return;
+            e.preventDefault();
+            const x = e.pageX - headerCarousel.offsetLeft;
+            const walk = (x - startX) * 3;
+            headerCarousel.scrollLeft = headerCarousel.scrollLeft - walk;
+        });
 
-headerCarousel.addEventListener('mouseup', () => {
-  isDragging = false;
-});
+        headerCarousel.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
 
     </script>
 
@@ -1027,7 +1027,7 @@ headerCarousel.addEventListener('mouseup', () => {
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/dragging_carousel.js"></script>
-    
+
 </body>
 
 </html>
