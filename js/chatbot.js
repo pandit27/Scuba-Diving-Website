@@ -24,3 +24,27 @@ const responses = {
     'what is your name': 'My name is Chatbot!',
     'default': 'Sorry, I did not understand. Can you please rephrase your message?'
 }
+
+function generateResponse(message) {
+    message = message.toLowerCase();
+    let response = responses[message] || responses['default'];
+    return response;
+  }
+
+  function sendMessage() {
+    let message = document.getElementById('message-input').value;
+    if (message) {
+      let chatbox = document.getElementById('chatbox');
+      let response = generateResponse(message);
+      let messageElement = document.createElement('div');
+      messageElement.className = 'user-message';
+      messageElement.innerHTML = message;
+      chatbox.appendChild(messageElement);
+      let responseElement = document.createElement('div');
+      responseElement.className = 'chatbot-message';
+      responseElement.innerHTML = response;
+      chatbox.appendChild(responseElement);
+      document.getElementById('message-input').value = '';
+    }
+  }
+  
