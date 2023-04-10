@@ -1,0 +1,39 @@
+.text-white-bg {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.536);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.text-neon {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.536);
+  border-radius: 20px;
+  padding: 20px;
+  text-shadow: 0 0 10px transparent, 0 0 20px transparent, 0 0 30px transparent,
+    0 0 40px #006eff, 0 0 70px #006eff, F0 0 80px #006eff, 0 0 100px #006eff,
+    0 0 150px #006eff;
+}
+
+.text-para-color {
+  color: black;
+  font-weight: 800;
+}
+
+
+.btn-neon {
+    background-color: #e1d6d6;
+    color: black;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #fff;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-neon:hover {
+    background-color: rgb(241, 0, 181);
+    color: #fff;
+    box-shadow: 0 0 20px rgb(241, 0, 181);
+    text-shadow: 0 0 20px rgb(241, 0, 181);
+  }

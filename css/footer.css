@@ -1,0 +1,35 @@
+.main-footer {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.main-footer .widget-title h4 {
+  color: #ffffff;
+}
+
+.main-footer a {
+  color: #ffffff;
+}
+
+.main-footer a:hover {
+  color: #e0e0e0;
+}
+
+.main-footer .footer-widget.info-widget .info li {
+  color: #e0e0e0;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}

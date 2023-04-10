@@ -1,1 +1,64 @@
     <a href="#" class="nav-item nav-link">About</a>
+
+    
+        <!-- carousel start -->
+        <div class="swiper-container main-slider" id="myCarousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slider-bg-position c-anim" style="background:url('img/cover4.webp')"
+                    data-hash="slide1">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Official Scuba Diving Centre
+                            </h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Best Scuba Diving Centre in Goa
+                            </h1>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE
+                                MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide slider-bg-position c-anim zoomIn"
+                    style="background:url('https://cdn.pixabay.com/photo/2013/02/09/04/33/scuba-diving-79606__340.jpg')"
+                    data-hash="slide2">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">WATER SPORTS & <br> SCUBA DIVING
+                                PACKAGES</h1>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Chat to Book your first
+                                Scuba Diving Experience in Goa</h5>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE
+                                MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev" style="opacity: 0.2;"><i class="fa fa-chevron-left"></div>
+            <div class="swiper-button-next" style="opacity: 0.2;"><i class="fa fa-chevron-right"></i></div>
+        </div>
+        <!-- carousel end -->
+
+
+
+        <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- pricing css -->
+    <link rel="stylesheet" href="css/pricing.css">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <!-- whatsapp css -->
+    <link rel="stylesheet" href="css/whatsapp.css">
+    <!-- chatbot css -->
+    <link rel="stylesheet" href="css/chatbot.css">
+    <!-- multiple carousel css -->
+    <link rel="stylesheet" href="css/multiple-carousel.css">
+    <!-- footer css -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- footer css -->
+    <link rel="stylesheet" href="/css/footer.css">
+    <!-- helper css -->
+    <link rel="stylesheet" href="/css/helper.css">
+    <!-- navbar css -->
+    <link rel="stylesheet" href="/css/navbar.css">
