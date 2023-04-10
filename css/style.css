@@ -765,13 +765,13 @@ video {
 }
 
 .about-section {
-  background: url("/img/w1.png");
+  /* background: url("/img/w5.png"); */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .pricing-section {
-  background: url("/img/w2.png");
+  background: url("/img/w3.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
