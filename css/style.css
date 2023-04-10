@@ -654,10 +654,6 @@ video {
   max-width: 100%;
 }
 
-.card {
-  box-shadow: -20px 10px #06a3da;
-}
-
 .card-video {
   box-shadow: -20px 10px rgb(121, 121, 215);
 }
