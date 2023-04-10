@@ -2,7 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 .owl-carousel {
-  background: url('/img/w7.png');
+  /* local link was not working so I hosted this image online but it will autodelete fter 6 months from now */
+  /* the image is same as img/w7.jpg */
+  background: url("https://i.ibb.co/Qm6Qc3D/w6.png");
 }
 
 .owl-carousel .owl-item {
