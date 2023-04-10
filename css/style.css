@@ -771,6 +771,8 @@ video {
 }
 
 .about-section {
+  height: fit-content !important;
+  background-color: white;
   /* background: url("/img/w5.png"); */
   background-repeat: no-repeat;
   background-size: contain;
