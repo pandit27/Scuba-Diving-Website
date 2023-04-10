@@ -302,10 +302,10 @@
   line-height: 50px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  }
-  
-  /* Chatbot Window */
-  .chatbot-window {
+}
+
+/* Chatbot Window */
+.chatbot-window {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -318,10 +318,10 @@
   z-index: 999;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  }
-  
-  /* Chatbot Window Header */
-  .chatbot-window-header {
+}
+
+/* Chatbot Window Header */
+.chatbot-window-header {
   background-color: #3f51b5;
   color: #fff;
   padding: 10px;
@@ -331,43 +331,43 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
-  
-  /* Chatbot Window Header Close Button */
-  .chatbot-window-header .close-btn {
+}
+
+/* Chatbot Window Header Close Button */
+.chatbot-window-header .close-btn {
   color: #fff;
   font-size: 20px;
   cursor: pointer;
-  }
-  
-  /* Chatbot Window Body */
-  .chatbot-window-body {
+}
+
+/* Chatbot Window Body */
+.chatbot-window-body {
   height: 400px;
   overflow-y: scroll;
   padding: 10px;
-  }
-  
-  /* Chatbot Window Input */
-  .chatbot-window-input {
+}
+
+/* Chatbot Window Input */
+.chatbot-window-input {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid #ccc;
   padding: 10px;
-  }
-  
-  /* Chatbot Window Input Textbox */
-  .chatbot-window-input input[type="text"] {
+}
+
+/* Chatbot Window Input Textbox */
+.chatbot-window-input input[type="text"] {
   border: none;
   outline: none;
   width: 90%;
   padding: 10px;
   border-radius: 10px;
   font-size: 16px;
-  }
-  
-  /* Chatbot Window Input Send Button */
-  .chatbot-window-input button {
+}
+
+/* Chatbot Window Input Send Button */
+.chatbot-window-input button {
   background-color: #3f51b5;
   color: #fff;
   border: none;
@@ -377,4 +377,4 @@
   font-size: 16px;
   width: 10%;
   cursor: pointer;
-  }
+}
