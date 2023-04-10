@@ -153,13 +153,11 @@ h6,
     font-size: 16px;
     font-weight: 500 !important;
     overflow-x: hidden;
-    margin-bottom: 1rem;
   }
 
   .carousel-caption h1 {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600 !important;
-    margin-bottom: 1rem;
   }
 }
 

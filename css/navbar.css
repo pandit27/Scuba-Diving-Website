@@ -4,7 +4,7 @@
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
-    color: #ffffff;
+    color: transparent;
     font-size: 18px;
     font-weight: 600;
     outline: none;
@@ -131,7 +131,7 @@
       bottom: 0;
       left: 0;
       padding: 20px;
-      background-color: #d6e2ed;
+      background-color: #cddae6;
       z-index: 9999;
       overflow-y: auto;
       transition: all 0.3s ease-in-out;
