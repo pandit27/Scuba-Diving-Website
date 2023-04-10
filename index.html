@@ -127,7 +127,7 @@
     <!-- whatsapp setTimeOut function start -->
     <script>
         setTimeout(function () {
-            document.getElementById("whatsapp-popup").style.display = "block";
+            document.querySelector(".whatsapp-popup").style.opacity = "1";
         }, 5000);
     </script>
     <!-- whatsapp setTimeOut function end -->
@@ -372,121 +372,75 @@
                     <!-- <h5 class="fw-bold text-uppercase text-para-color margin">Pricing Plans</h5> -->
                     <h1 class="mb-0 text-white-bg margin">BESTSELLING PACKAGES</h1>
                 </div>
-                <div class="container p-5">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title">Basic</h5>
-                                        <small>Individual</small>
-                                        <br><br>
-                                        <span class="h2">$8</span>/month
-                                        <br><br>
+                <section class="pricing py-5">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Plus Tier -->
+                            <div class="col-lg-4">
+                                <div class="card mb-5 mb-lg-0">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+                                        <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+                                        <hr>
+                                        <ul class="fa-ul">
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5
+                                                    Users</strong></li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public
+                                                Projects</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access
+                                            </li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private
+                                                Projects</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone
+                                                Support</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain
+                                            </li>
+                                            <li class="text-muted"><span class="fa-li"><i
+                                                        class="fas fa-times"></i></span>Monthly Status
+                                                Reports</li>
+                                        </ul>
+                                        <div class="d-grid">
+                                            <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                                        </div>
                                     </div>
-                                    <p class="card-text">Some quick example text to build on
-                                        the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Cras justo odio</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Dapibus ac facilisis in</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Vestibulum at eros</li>
-                                </ul>
-                                <div class="card-body text-center">
-                                    <button class="btn btn-outline-primary btn-lg"
-                                        style="border-radius:30px">Select</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title">Standard</h5>
-                                        <small>Small Business</small>
-                                        <br><br>
-                                        <span class="h2">$20</span>/month
-                                        <br><br>
+                            <!-- Pro Tier -->
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+                                        <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+                                        <hr>
+                                        <ul class="fa-ul">
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited
+                                                    Users</strong>
+                                            </li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage
+                                            </li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public
+                                                Projects</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access
+                                            </li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private
+                                                Projects</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone
+                                                Support</li>
+                                            <li><span class="fa-li"><i
+                                                        class="fas fa-check"></i></span><strong>Unlimited</strong> Free
+                                                Subdomains</li>
+                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status
+                                                Reports</li>
+                                        </ul>
+                                        <div class="d-grid">
+                                            <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                                        </div>
                                     </div>
-                                    <p class="card-text">Some quick example text to build on
-                                        the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Cras justo odio</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Dapibus ac facilisis in</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Vestibulum at eros</li>
-                                </ul>
-                                <div class="card-body text-center">
-                                    <button class="btn btn-outline-primary btn-lg"
-                                        style="border-radius:30px">Select</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card h-100 shadow-lg">
-                                <div class="card-body">
-                                    <div class="text-center p-3">
-                                        <h5 class="card-title">Premium</h5>
-                                        <small>Large Companies</small>
-                                        <br><br>
-                                        <span class="h2">$40</span>/month
-                                        <br><br>
-                                    </div>
-                                    <p class="card-text">Some quick example text to build on
-                                        the card title and make up
-                                        the bulk of the card's content.</p>
-                                </div>
-                                <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Cras justo odio</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Dapibus ac facilisis in</li>
-                                    <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                            height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
-                                            <path
-                                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                        </svg> Vestibulum at eros</li>
-                                </ul>
-                                <div class="card-body text-center">
-                                    <button class="btn btn-outline-primary btn-lg"
-                                        style="border-radius:30px">Select</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
