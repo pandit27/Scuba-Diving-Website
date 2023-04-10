@@ -779,7 +779,9 @@ video {
 }
 
 .pricing-section {
-  background: url("/img/w3.webp");
+  /* local link was not working so I hosted this image online but it will autodelete fter 6 months from now */
+  /* the image is same as img/w3.jpg */
+  background: url("https://i.ibb.co/yWks01F/w3.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
