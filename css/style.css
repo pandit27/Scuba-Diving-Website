@@ -760,7 +760,7 @@ video {
 @media (max-width: 700px) {
   .footer-bottom {
     flex-direction: column;
-    align-item: center;
+    align-items: center;
   }
 }
 
@@ -771,7 +771,7 @@ video {
 }
 
 .pricing-section {
-  background: url("/img/w1.png");
+  background: url("/img/w2.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
