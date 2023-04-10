@@ -39,3 +39,25 @@
             </div>
         </nav>
 
+
+
+<!-- chatbot start -->
+    <!-- <div class="chatbot">
+        <div class="chatbot-header">
+            <img src="chatbot-logo.png" alt="Chatbot Logo">
+            <button class="btn-close"><i class="fa fa-close"></i></button>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-container">
+                <div class="chat-message">
+                    <p>Hello! How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button class="btn-send"><i class="fa fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    <button class="btn-open"><i class="fa fa-comments"></i></button> -->
+    <!-- chatbot end -->
