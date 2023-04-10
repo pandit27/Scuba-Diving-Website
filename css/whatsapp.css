@@ -1,7 +1,7 @@
 .whatsapp-popup {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   z-index: 999;
   transition: all 0.3s ease-in-out;
 }
