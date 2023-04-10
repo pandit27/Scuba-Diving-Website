@@ -791,8 +791,27 @@ video {
   width: auto;
 }
 
+.text-white-bg {
+  color: #000000;
+  background: rgba(255, 255, 255, 0.536);
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .text-neon {
-  color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
-    0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  color: #000000;
+  background: rgba(255, 255, 255, 0.536);
+  border-radius: 20px;
+  padding: 20px;
+  text-shadow: 0 0 10px transparent, 0 0 20px transparent, 0 0 30px transparent, 0 0 40px #006eff,
+    0 0 70px #006eff, F0 0 80px #006eff, 0 0 100px #006eff, 0 0 150px #006eff;
+}
+
+.text-para-color {
+  color: black;
+  font-weight: 800;
+}
+
+.margin {
+  /* margin-left: 8rem; */
 }
