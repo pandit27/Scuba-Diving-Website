@@ -49,6 +49,8 @@
     <link rel="stylesheet" href="css/whatsapp.css">
     <!-- chatbot css -->
     <link rel="stylesheet" href="css/chatbot.css">
+    <!-- multiple carousel css -->
+    <link rel="stylesheet" href="css/multiple-carousel.css">
 
     <style>
         .main-footer {
@@ -181,370 +183,388 @@
         <!-- navbar end -->
 
         <!-- carousel start -->
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item my-carousel active" data-mdb-interval="100">
-                    <img class="w-100" src="img\cover4.webp" alt="Image">
+        <div class="swiper-container main-slider" id="myCarousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slider-bg-position c-anim" style="background:url('img/cover4.webp')"
+                    data-hash="slide1">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Official Scuba Diving Centre
                             </h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Best Scuba Diving Centre in Goa
                             </h1>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE MORE</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE
+                                MORE</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="carousel-item" data-mdb-interval="100">
-                    <img class="w-100" src="https://cdn.pixabay.com/photo/2013/02/09/04/33/scuba-diving-79606__340.jpg"
-                        alt="Image">
+                <div class="swiper-slide slider-bg-position c-anim zoomIn"
+                    style="background:url('https://cdn.pixabay.com/photo/2013/02/09/04/33/scuba-diving-79606__340.jpg')"
+                    data-hash="slide2">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">WATER SPORTS & <br> SCUBA DIVING
                                 PACKAGES</h1>
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">Chat to Book your first
                                 Scuba Diving Experience in Goa</h5>
-                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE MORE</a>
+                            <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">EXPLORE
+                                MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev button-carousel" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next button-carousel" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Navigation -->
+            <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+            <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
         </div>
-    </div>
-    <!-- carousel end -->
+        <!-- carousel end -->
 
-    <!-- about section start -->
-    <section class="about-section py-5">
-        <div class="container">
-            <div class="row gx-5 align-items-center">
-                <!--Left Column-->
-                <div class="col-md-7">
-                    <div class="inner">
-                        <div class="d-flex align-items-center mb-4">
-                            <!-- <div class="image-box me-3">
+
+
+        <!-- about section start -->
+        <section class="about-section py-5">
+            <div class="container">
+                <div class="row gx-5 align-items-center">
+                    <!--Left Column-->
+                    <div class="col-md-7">
+                        <div class="inner">
+                            <div class="d-flex align-items-center mb-4">
+                                <!-- <div class="image-box me-3">
                                 <img src="img/cover2.webp" alt="" title="" class="img-fluid rounded-circle">
                             </div> -->
-                            <div class="content">
-                                <div class="sec-title mb-2">
-                                    <h2 class="h3 text-neon">Welcome to Scuba Diving Adventure!</h2>
-                                    <div class="upper-text">Best Scuba and Water Sports experience in Goa &amp; Andaman
-                                        Island.</div>
-                                </div>
-                                <div class="video-link">
-                                    <div class="video-thumb">
-                                        <video autoplay muted loop playbackRate="0.5" width="auto" height="auto"
-                                            loading="lazy">
-                                            <source src="video/scuba diving 4.mp4" type="video/mp4">
-                                        </video>
+                                <div class="content">
+                                    <div class="sec-title mb-2">
+                                        <h2 class="h3 text-neon">Welcome to Scuba Diving Adventure!</h2>
+                                        <div class="upper-text">Best Scuba and Water Sports experience in Goa &amp;
+                                            Andaman
+                                            Island.</div>
                                     </div>
-                                    <div class="video-title mt-2">
-                                        <a href="https://www.youtube.com/watch?v=wo_ow-DA9fY"
-                                            class="lightbox-image text-yellow">Watch Our Intro Video!</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="text">
-                                <p class="mb-0">Scuba diving experience is one of a kind experience. We Provide
-                                    Scubadiving experience at Goa and Andaman Islands, One of the best destination in
-                                    india. if you are planning to visit any of these beautiful destinations, then we
-                                    recommend to add scubadiving in your tour to add some Adventure and Thrill.</p>
-                                <p class="mb-0">We Provide best services in Goa &amp; Andaman Because we’ve been there
-                                    and done it. When you choose us, you’ll feel the benefit of 7 years’ experience of
-                                    Scuba Diving and Watersports. <a href="#" class="text-decoration-none">Read
-                                        More About Us</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--Right Column-->
-                <div class="col-md-5">
-                    <div class="widgets-section bg-light p-4">
-                        <div class="sec-title mb-3">
-                            <h3 class="h4">Special Offers</h3>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about section end -->
-
-    <!-- auto carousel start -->
-    <div class="owl-carousel owl-theme">
-        <div class="owl-item">
-            <div class="card">
-                <div class="img-card">
-                    <img src=".//img/i1.webp" alt="">
-                </div>
-                <div class="testimonial mt-4 mb-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                    expedita dicta doloremque odit
-                    saepe quo natus aut accusantium alias blanditiis.
-                </div>
-                <div class="name">
-                    lorem
-                </div>
-            </div>
-        </div>
-        <div class="owl-item">
-            <div class="card">
-                <div class="img-card">
-                    <img src="img/i2.webp" alt="">
-                </div>
-                <div class="testimonial mt-4 mb-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                    expedita dicta doloremque odit
-                    saepe quo natus aut accusantium alias blanditiis.
-                </div>
-                <div class="name">
-                    lorem
-                </div>
-            </div>
-        </div>
-        <div class="owl-item">
-            <div class="card">
-                <div class="img-card">
-                    <img src="img/i3.webp" alt="">
-                </div>
-                <div class="testimonial mt-4 mb-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                    expedita dicta doloremque odit
-                    saepe quo natus aut accusantium alias blanditiis.
-                </div>
-                <div class="name">
-                    lorem
-                </div>
-            </div>
-        </div>
-        <div class="owl-item">
-            <div class="card">
-                <div class="img-card">
-                    <img src="img/i4.webp" alt="">
-                </div>
-                <div class="testimonial mt-4 mb-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                    expedita dicta doloremque odit
-                    saepe quo natus aut accusantium alias blanditiis.
-                </div>
-                <div class="name">
-                    lorem
-                </div>
-            </div>
-        </div>
-        <div class="owl-item">
-            <div class="card">
-                <div class="img-card">
-                    <img src="img/main-carousel-1.webp" alt="">
-                </div>
-                <div class="testimonial mt-4 mb-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-                    expedita dicta doloremque odit
-                    saepe quo natus aut accusantium alias blanditiis.
-                </div>
-                <div class="name">
-                    lorem
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- auto carousel end -->
-
-    <!-- pricing start -->
-    <div class="container-fluid my-carousel pricing-section">
-        <div class="container-fluid py-5 wow fadeInUp">
-            <div class="container py-5">
-                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto wow fadeInUp"
-                    style="max-width: 600px;" data-wow-delay="0.1s">
-                    <!-- <h5 class="fw-bold text-uppercase text-para-color margin">Pricing Plans</h5> -->
-                    <h1 class="mb-0 text-white-bg margin">BESTSELLING PACKAGES</h1>
-                </div>
-                <section class="pricing py-5">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Plus Tier -->
-                            <div class="col-lg-4">
-                                <div class="card mb-5 mb-lg-0">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-                                        <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-                                        <hr>
-                                        <ul class="fa-ul">
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5
-                                                    Users</strong></li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public
-                                                Projects</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access
-                                            </li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private
-                                                Projects</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone
-                                                Support</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain
-                                            </li>
-                                            <li class="text-muted"><span class="fa-li"><i
-                                                        class="fas fa-times"></i></span>Monthly Status
-                                                Reports</li>
-                                        </ul>
-                                        <div class="d-grid pricing-btn">
-                                            <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                                    <div class="video-link">
+                                        <div class="video-thumb">
+                                            <video autoplay muted loop playbackRate="0.5" width="auto" height="auto"
+                                                loading="lazy">
+                                                <source src="video/scuba diving 4.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                        <div class="video-title mt-2">
+                                            <a href="https://www.youtube.com/watch?v=wo_ow-DA9fY"
+                                                class="lightbox-image text-yellow">Watch Our Intro Video!</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- Pro Tier -->
-                            <div class="col-lg-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-                                        <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-                                        <hr>
-                                        <ul class="fa-ul">
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited
-                                                    Users</strong>
-                                            </li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage
-                                            </li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public
-                                                Projects</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access
-                                            </li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private
-                                                Projects</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone
-                                                Support</li>
-                                            <li><span class="fa-li"><i
-                                                        class="fas fa-check"></i></span><strong>Unlimited</strong> Free
-                                                Subdomains</li>
-                                            <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status
-                                                Reports</li>
-                                        </ul>
-                                        <div class="d-grid pricing-btn">
-                                            <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                            <div class="lower-content">
+                                <div class="text">
+                                    <p class="mb-0">Scuba diving experience is one of a kind experience. We Provide
+                                        Scubadiving experience at Goa and Andaman Islands, One of the best destination
+                                        in
+                                        india. if you are planning to visit any of these beautiful destinations, then we
+                                        recommend to add scubadiving in your tour to add some Adventure and Thrill.</p>
+                                    <p class="mb-0">We Provide best services in Goa &amp; Andaman Because we’ve been
+                                        there
+                                        and done it. When you choose us, you’ll feel the benefit of 7 years’ experience
+                                        of
+                                        Scuba Diving and Watersports. <a href="#" class="text-decoration-none">Read
+                                            More About Us</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Right Column-->
+                    <div class="col-md-5">
+                        <div class="widgets-section bg-light p-4">
+                            <div class="sec-title mb-3">
+                                <h3 class="h4">Special Offers</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- auto carousel start -->
+        <div class="owl-carousel owl-theme">
+            <div class="owl-item">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/i1.webp" alt="">
+                    </div>
+                    <div class="testimonial mt-4 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        expedita dicta doloremque odit
+                        saepe quo natus aut accusantium alias blanditiis.
+                    </div>
+                    <div class="name">
+                        lorem
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/i2.webp" alt="">
+                    </div>
+                    <div class="testimonial mt-4 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        expedita dicta doloremque odit
+                        saepe quo natus aut accusantium alias blanditiis.
+                    </div>
+                    <div class="name">
+                        lorem
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/i3.webp" alt="Parasailing">
+                    </div>
+                    <div class="testimonial mt-4 mb-2">
+                        <h3>Parasailing</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        expedita dicta doloremque odit
+                        saepe quo natus aut accusantium alias blanditiis.
+                    </div>
+                    <div class="name">
+                        lorem
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/i4.webp" alt="">
+                    </div>
+                    <div class="testimonial mt-4 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        expedita dicta doloremque odit
+                        saepe quo natus aut accusantium alias blanditiis.
+                    </div>
+                    <div class="name">
+                        lorem
+                    </div>
+                </div>
+            </div>
+            <div class="owl-item">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="img/main-carousel-1.webp" alt="">
+                    </div>
+                    <div class="testimonial mt-4 mb-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                        expedita dicta doloremque odit
+                        saepe quo natus aut accusantium alias blanditiis.
+                    </div>
+                    <div class="name">
+                        lorem
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- auto carousel end -->
+
+        <!-- pricing start -->
+        <div class="container-fluid my-carousel pricing-section">
+            <div class="container-fluid py-5 wow fadeInUp">
+                <div class="container py-5">
+                    <div class="section-title text-center position-relative pb-3 mb-5 mx-auto wow fadeInUp"
+                        style="max-width: 600px;" data-wow-delay="0.1s">
+                        <!-- <h5 class="fw-bold text-uppercase text-para-color margin">Pricing Plans</h5> -->
+                        <h1 class="mb-0 text-white-bg margin">BESTSELLING PACKAGES</h1>
+                    </div>
+                    <section class="pricing py-5">
+                        <div class="container">
+                            <div class="row">
+                                <!-- Plus Tier -->
+                                <div class="col-lg-4">
+                                    <div class="card mb-5 mb-lg-0">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+                                            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5
+                                                        Users</strong></li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage
+                                                </li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited
+                                                    Public
+                                                    Projects</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community
+                                                    Access
+                                                </li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited
+                                                    Private
+                                                    Projects</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated
+                                                    Phone
+                                                    Support</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Free
+                                                    Subdomain
+                                                </li>
+                                                <li class="text-muted"><span class="fa-li"><i
+                                                            class="fas fa-times"></i></span>Monthly Status
+                                                    Reports</li>
+                                            </ul>
+                                            <div class="d-grid pricing-btn">
+                                                <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Pro Tier -->
+                                <div class="col-lg-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+                                            <h6 class="card-price text-center">$49<span class="period">/month</span>
+                                            </h6>
+                                            <hr>
+                                            <ul class="fa-ul">
+                                                <li><span class="fa-li"><i
+                                                            class="fas fa-check"></i></span><strong>Unlimited
+                                                        Users</strong>
+                                                </li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage
+                                                </li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited
+                                                    Public
+                                                    Projects</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community
+                                                    Access
+                                                </li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited
+                                                    Private
+                                                    Projects</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated
+                                                    Phone
+                                                    Support</li>
+                                                <li><span class="fa-li"><i
+                                                            class="fas fa-check"></i></span><strong>Unlimited</strong>
+                                                    Free
+                                                    Subdomains</li>
+                                                <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly
+                                                    Status
+                                                    Reports</li>
+                                            </ul>
+                                            <div class="d-grid pricing-btn">
+                                                <a href="#" class="btn btn-primary text-uppercase">Button</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        document.querySelector(".card-pricing").addEventListener('mouseover', () => {
-            console.log('hover')
-            document.querySelector(".pricing-btn").style.color = 'red'
-        })
-    </script>
-
-    <br>
-
-    <!-- footer start -->
-    <div class="bg-dark py-3">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="widgets-section">
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="bg-light py-5">
-        <div class="container">
-            <div class="row">
 
-                <!--Column-->
-                <div class="col-md-4">
-                    <div class="logo mb-4">
-                        <a href="#"><img src="images/scubalogo.webp" alt=""></a>
+        <script>
+            document.querySelector(".card-pricing").addEventListener('mouseover', () => {
+                console.log('hover')
+                document.querySelector(".pricing-btn").style.color = 'red'
+            })
+        </script>
+
+        <br>
+
+        <!-- footer start -->
+        <div class="bg-dark py-3">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="widgets-section">
                     </div>
-                    <div class="info">
+                </div>
+            </div>
+        </div>
+        <footer class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+
+                    <!--Column-->
+                    <div class="col-md-4">
+                        <div class="logo mb-4">
+                            <a href="#"><img src="images/scubalogo.webp" alt=""></a>
+                        </div>
+                        <div class="info">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-map-marker-alt me-3"></i>Scuba Adventure,
+                                    Calangute Circle, Goa 403516
+                                </li>
+                                <li><i class="fas fa-phone me-3"></i>Call us <a href="tel:9625358429">9625358429</a>
+                                </li>
+                                <li><i class="fas fa-envelope me-3"></i><a
+                                        href="mailto:info@scubadivingadventure.in">info@scubadivingadventure.in</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--Column-->
+                    <div class="col-md-4">
+                        <h4 class="mb-4">Popular Goa Packages</h4>
                         <ul class="list-unstyled">
-                            <li><i class="fas fa-map-marker-alt me-3"></i>Scuba Adventure,
-                                Calangute Circle, Goa 403516
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Scuba Diving in Goa</a></li>
+                            <li><a href="#">Goa Watersports Activities</a></li>
+                            <li><a href="#">Goa Tour Packages</a></li>
+                            <li><a href="#">Goa Weekend Gateway</a></li>
+                            <li><a href="#">Goa Tour 4D-3N package</a>
                             </li>
-                            <li><i class="fas fa-phone me-3"></i>Call us <a href="tel:9625358429">9625358429</a></li>
-                            <li><i class="fas fa-envelope me-3"></i><a
-                                    href="mailto:info@scubadivingadventure.in">info@scubadivingadventure.in</a>
+                            <li><a href="#">FAQ Goa</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!--Column-->
+                    <div class="col-md-4">
+                        <h4 class="mb-4">Andaman Tour Packages</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Andaman
+                                    Activities</a></li>
+                            <li><a href="#">Scubadiving in Andaman</a>
+                            </li>
+                            <li><a href="#">Andaman Tour
+                                    Package</a></li>
+                            <li><a href="#">Neil Island
+                                    Tour</a></li>
+                            <li><a href="#">Havelock
+                                    Island Tour</a></li>
+                            <li><a href="#">Honeymoon Tour
+                                    Package</a></li>
+                            <li><a href="#">Explore the Andaman</a>
                             </li>
                         </ul>
                     </div>
                 </div>
-
-                <!--Column-->
-                <div class="col-md-4">
-                    <h4 class="mb-4">Popular Goa Packages</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Scuba Diving in Goa</a></li>
-                        <li><a href="#">Goa Watersports Activities</a></li>
-                        <li><a href="#">Goa Tour Packages</a></li>
-                        <li><a href="#">Goa Weekend Gateway</a></li>
-                        <li><a href="#">Goa Tour 4D-3N package</a>
-                        </li>
-                        <li><a href="#">FAQ Goa</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-                <!--Column-->
-                <div class="col-md-4">
-                    <h4 class="mb-4">Andaman Tour Packages</h4>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Andaman
-                                Activities</a></li>
-                        <li><a href="#">Scubadiving in Andaman</a>
-                        </li>
-                        <li><a href="#">Andaman Tour
-                                Package</a></li>
-                        <li><a href="#">Neil Island
-                                Tour</a></li>
-                        <li><a href="#">Havelock
-                                Island Tour</a></li>
-                        <li><a href="#">Honeymoon Tour
-                                Package</a></li>
-                        <li><a href="#">Explore the Andaman</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </div>
-        <hr>
-        <div class="footer-bottom">
-            <p>Copyright © 2021 Scuba Adventure. All Rights Reserved.</p>
-            <p>Terms Of Use & Private Policy</p>
-        </div>
-    </footer>
+            <hr>
+            <div class="footer-bottom">
+                <p>Copyright © 2021 Scuba Adventure. All Rights Reserved.</p>
+                <p>Terms Of Use & Private Policy</p>
+            </div>
+        </footer>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/dragging_carousel.js"></script>
-    <script src="js/owl-carousel.js"></script>
-    <script src="js/chatbot.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/dragging_carousel.js"></script>
+        <script src="js/owl-carousel.js"></script>
+        <script src="js/chatbot.js"></script>
+        <script src="js/helper.js"></script>
 
 </body>
 
