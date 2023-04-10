@@ -6,12 +6,12 @@ const chatbot = document.querySelector('#chatbot');
 
 // Add a click event listener to the chatbot icon element
 chatbotIcon.addEventListener('click', () => {
-  // Toggle the chatbot element's visibility
-  chatbot.classList.toggle('d-none');
+    // Toggle the chatbot element's visibility
+    chatbot.classList.toggle('d-none');
 });
 
 // Add a click event listener to the close button
 document.querySelector('#chatbot-close').addEventListener('click', () => {
-  // Hide the chatbot element
-  chatbot.classList.add('d-none');
+    // Hide the chatbot element
+    chatbot.classList.add('d-none');
 });
