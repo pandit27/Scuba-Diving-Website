@@ -132,6 +132,8 @@
     </script>
     <!-- whatsapp setTimeOut function end -->
 
+
+
     <!-- navbar start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
@@ -400,7 +402,7 @@
                                                         class="fas fa-times"></i></span>Monthly Status
                                                 Reports</li>
                                         </ul>
-                                        <div class="d-grid">
+                                        <div class="d-grid pricing-btn">
                                             <a href="#" class="btn btn-primary text-uppercase">Button</a>
                                         </div>
                                     </div>
@@ -433,7 +435,7 @@
                                             <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status
                                                 Reports</li>
                                         </ul>
-                                        <div class="d-grid">
+                                        <div class="d-grid pricing-btn">
                                             <a href="#" class="btn btn-primary text-uppercase">Button</a>
                                         </div>
                                     </div>
@@ -444,6 +446,14 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.querySelector(".card-pricing").addEventListener('mouseover', () => {
+            console.log('hover')
+            document.querySelector(".pricing-btn").style.color = 'red'
+        })
+    </script>
+
     <br>
 
     <!-- footer start -->

@@ -1,6 +1,6 @@
 section.pricing {
-  background: #007bff;
-  background: linear-gradient(to right, #0062e6, #33aeff);
+  /* background: #007bff; */
+  /* background: linear-gradient(to right, #0062e6, #33aeff); */
 }
 
 .pricing .card {
@@ -61,3 +61,18 @@ section.pricing {
     opacity: 1;
   }
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pricing-btn {
+  /* opacity: 1; */
+}
+
+/* .pricing-btn:hover {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  opacity: 1;
+} */
