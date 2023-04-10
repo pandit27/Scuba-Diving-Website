@@ -1,6 +1,10 @@
 /* Importing fonts from Google */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+.owl-carousel {
+  background: url('/img/w7.png');
+}
+
 .owl-carousel .owl-item {
   transition: all 0.3s ease-in-out;
   background-color: lightslategrey;
