@@ -98,3 +98,110 @@ body {
   padding: 10px 20px;
   margin-left: 10px;
 }
+
+/* Chatbot messages */
+.chatbot-message {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  }
+  
+  /* User messages */
+  .user-message {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  float: right;
+  }
+  
+  /* Chatbot icon */
+  .chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  }
+  
+  /* Chatbot message box */
+  .chatbot-box {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 300px;
+  max-height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: none;
+  overflow-y: scroll;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Chatbot message box header */
+  .chatbot-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 20px;
+  }
+  
+  /* Chatbot message box body */
+  .chatbot-body {
+  padding: 10px;
+  }
+  
+  /* Chatbot message box input */
+  .chatbot-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
+  resize: none;
+  outline: none;
+  }
+  
+  /* Chatbot message box send button */
+  .chatbot-send {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  }
+  
+  /* Chatbot message box close button */
+  .chatbot-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: #ccc;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  
+  /* Media queries /
+  /* Chatbot message box */
+  @media (max-width: 768px) {
+  .chatbot-box {
+  width: 100%;
+  bottom: 0;
+  border-radius: 0;
+  }
+  }  
