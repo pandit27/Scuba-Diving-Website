@@ -8,14 +8,14 @@
 }
 
 .owl-carousel .owl-item {
-  transition: all 0.3s ease-in-out;
-  background-color: lightslategrey;
-  z-index: 1;
+  transition: all 0.2s ease;
+  background-color: rgb(191, 209, 226);
+  z-index: 2;
 }
 
 .owl-carousel .owl-item .card {
   padding: 30px;
-  /* position: relative; */
+  position: relative;
 }
 
 .owl-carousel .owl-stage-outer {
