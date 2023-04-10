@@ -90,11 +90,11 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background: url("https://cdn.pixabay.com/photo/2021/11/25/18/55/octopus-6824384__340.jpg");
+  background: url("/img/w6.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  top: 8rem;
+  /* position: relative;
+  top: 8rem; */
 }
 
 @media (min-width: 480.6px) and (max-width: 575.5px) {
