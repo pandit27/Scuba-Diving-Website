@@ -763,3 +763,15 @@ video {
     align-item: center;
   }
 }
+
+.about-section {
+  background: url("/img/w1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pricing-section {
+  background: url("/img/w1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
