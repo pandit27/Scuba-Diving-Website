@@ -783,3 +783,8 @@ video {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.video-link img {
+  height: 15rem;
+  width: auto;
+}
