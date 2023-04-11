@@ -1,0 +1,74 @@
+/* .container-caro {
+    background-color: rgb(232, 242, 245);
+    padding: 50px 40px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 25px #a7a7a7;
+  }
+  .tag-caro {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .fa-heart-caro {
+    color: rgba(255, 230, 0, 0.959);
+    font-size: 30px;
+  }
+  .card-caro {
+    height: 320px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: -1px 3px 5px #a7a7a7;
+  }
+  .testimonial-caro {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+  }
+  .active-star-caro {
+    color: #fbc02d;
+    margin-bottom: 8px;
+  }
+  .active-star-caro:hover {
+    color: #f9a825;
+    cursor: pointer;
+  }
+  .profile-caro {
+    padding-top: 10px;
+  }
+  .name-caro {
+    font-weight: 700;
+  }
+  .designation-caro {
+    font-size: 0.84rem;
+    font-weight: 600;
+  }
+  .owl-carousel-caro {
+    margin-bottom: 15px;
+  }
+  .owl-carousel-caro .owl-stage-outer-caro {
+    padding: 40px 10px;
+    height: 380px;
+  }
+  .owl-carousel-caro .owl-item-caro img {
+    width: 45px !important;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .owl-theme-caro .owl-nav-caro [class*="owl-"] {
+    border-radius: 50% !important;
+    background: inherit !important;
+    border: 3px solid #bbb;
+    color: #bbb !important;
+  }
+  .owl-theme-caro .owl-nav-caro [class*="owl-"]:hover {
+    border: 3px solid #1010ca;
+    color: #1010ca !important;
+  }
+  @media (max-width: 575.5px) {
+    .container-caro {
+      margin: 0px;
+      padding: 20px;
+    }
+  } */
