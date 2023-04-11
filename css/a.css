@@ -8,6 +8,7 @@
   width: 100%;
   position: relative;
   margin-top: 30px;
+  overflow: hidden !important;
 }
 .c-carousel__arrow {
   width: 30px;
