@@ -3,9 +3,12 @@
 }
 
 .about-section h2 {
+  font-family: "Nunito";
   text-align: center;
   font-size: 36px;
+  color: white;
   margin-bottom: 30px;
+  background: radial-gradient(#d00000, orange);
 }
 
 .about-section p {
