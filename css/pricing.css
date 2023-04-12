@@ -1,44 +1,44 @@
-section.pricing {
-  /* background: #007bff; */
-  /* background: linear-gradient(to right, #0062e6, #33aeff); */
-}
-
-.pricing .card {
+.pricing-container .card {
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  padding-top: 4rem;
 }
 
-.pricing hr {
+.pricing-section {
+  /* padding-top: 4rem; */
+}
+
+.pricing-section hr {
   margin: 1.5rem 0;
 }
 
-.pricing .card-title {
+.pricing-section .card-title {
   margin: 0.5rem 0;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   font-weight: bold;
 }
 
-.pricing .card-price {
+.pricing-section .card-price {
   font-size: 3rem;
   margin: 0;
 }
 
-.pricing .card-price .period {
+.pricing-section .card-price .period {
   font-size: 0.8rem;
 }
 
-.pricing ul li {
+.pricing-section ul li {
   margin-bottom: 1rem;
 }
 
-.pricing .text-muted {
+.pricing-section .text-muted {
   opacity: 0.7;
 }
 
-.pricing .btn {
+.pricing-section .btn {
   font-size: 80%;
   border-radius: 5rem;
   letter-spacing: 0.1rem;
@@ -51,13 +51,13 @@ section.pricing {
 /* Hover Effects on Card */
 
 @media (min-width: 992px) {
-  .pricing .card:hover {
+  .pricing-section .card:hover {
     margin-top: -0.25rem;
     margin-bottom: 0.25rem;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
   }
 
-  .pricing .card:hover .btn {
+  .pricing-section .card:hover .btn {
     opacity: 1;
   }
 }
