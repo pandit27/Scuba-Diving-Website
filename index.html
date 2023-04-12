@@ -419,8 +419,7 @@
     <div class="container-fluid my-carousel pricing-section">
         <div class="container-fluid py-5">
             <div class="container py-5">
-                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto"
-                    style="max-width: 600px;">
+                <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                     <!-- <h5 class="fw-bold text-uppercase text-para-color margin">Pricing Plans</h5> -->
                     <h1 class="mb-0 text-white-bg margin">BESTSELLING PACKAGES</h1>
                 </div>
@@ -509,15 +508,66 @@
             </div>
         </div>
     </div>
+    <!-- pricing end -->
 
-    <script>
-        document.querySelector(".card-pricing").addEventListener('mouseover', () => {
-            console.log('hover')
-            document.querySelector(".pricing-btn").style.color = 'red'
-        })
-    </script>
+    <!-- video background start -->
+    <div class="ocean-wave-container">
+        <div class="video-container">
+            <video autoplay muted loop>
+                <source src="video/scuba diving.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="ocean-content">
+            <h1>Top Place in Goa</h1>
+            <button class="btn btn-primary">EXPLORE MORE</button>
+        </div>
+    </div>
 
-    <br>
+
+    <style>
+        .ocean-wave-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+  height: 60vh;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.ocean-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.ocean-content h1 {
+  font-size: 3em;
+  color: white;
+  margin: 0;
+}
+
+.ocean-content button {
+  font-size: 1.5em;
+  padding: 15px 30px;
+}
+    </style>
+    <!-- video background end -->
 
     <!-- footer start -->
     <div class="bg-dark py-3">
