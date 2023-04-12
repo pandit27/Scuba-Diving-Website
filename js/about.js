@@ -18,3 +18,4 @@ counters.forEach(counter => {
 
     updateCount();
 });
+

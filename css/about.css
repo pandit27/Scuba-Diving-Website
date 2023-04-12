@@ -27,6 +27,13 @@
   margin-top: 30px;
 }
 
+.statistics-about {
+  background: url("/img/i6.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* width: 100%; */
+}
+
 .statistic {
   text-align: center;
 }
@@ -148,14 +155,7 @@
   }
 
   .card-about img {
-    border: 2px solid rgb(137, 138, 126);
     margin-top: 2px;
     margin-bottom: 2px;
-  }
-
-  .statistics {
-    background-color: #faf4f4;
-    border: 2px solid rgba(255, 0, 0, 0.136);
-    padding-top: 6px;
   }
 }
