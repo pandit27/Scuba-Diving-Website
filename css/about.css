@@ -16,7 +16,7 @@
 }
 
 .statistics {
-    /* background-color: #faf4f4;
+  /* background-color: #faf4f4;
     border: 2px solid rgba(255, 0, 0, 0.136); */
   display: flex;
   justify-content: center;
@@ -54,6 +54,8 @@
 }
 
 .card-about img {
+  transition: linear 9s infinite;
+  border: 2px solid gray;
   max-width: 100%;
   height: auto;
 }
@@ -115,6 +117,25 @@
     font-size: 24px;
   }
 
+  .card-about .card-about-overlay {
+    opacity: 2;
+    transform: scale(1);
+  }
+
+  .card-about-overlay {
+    background-color: transparent;
+  }
+
+  .card-about:hover .card-about-overlay {
+    opacity: 4;
+    background-color: transparent;
+  }
+
+  .card-about:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
   .card-about-overlay h3 {
     font-size: 20px;
   }
@@ -122,8 +143,9 @@
   .card-about-overlay a {
     font-size: 16px;
   }
-  
+
   .card-about img {
+    border: 2px solid rgb(137, 138, 126);
     margin-top: 2px;
     margin-bottom: 2px;
   }
