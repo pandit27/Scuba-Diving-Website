@@ -5,12 +5,12 @@
 }
 
 @media (max-width: 576px) {
-    .t-img {
-        height: 200px;
-        width: auto;
-        margin-right: 4px;
-    }
+  .t-img {
+    height: 200px;
+    width: auto;
+    margin-right: 4px;
   }
+}
 
 .c-carousel {
   width: 100%;

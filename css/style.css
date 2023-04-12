@@ -648,3 +648,9 @@ video {
 }
 
 
+/* 
+@media (max-width: 576px) {
+  .about-section {
+    padding: 0;
+  }
+} */
