@@ -61,6 +61,8 @@
     <link rel="stylesheet" href="css/caro.css">
     <!-- a css -->
     <link rel="stylesheet" href="css/a.css">
+    <!-- counting css -->
+    <link rel="stylesheet" href="css/counting.css">
 
     <style>
 
@@ -192,8 +194,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide slider-bg-position c-anim zoomIn"
-                    style="background:url('img/i6.webp'); animation: fadeIn 2s;"
-                    data-hash="slide2">
+                    style="background:url('img/i6.webp'); animation: fadeIn 2s;" data-hash="slide2">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">CHAT TO BOOK
@@ -513,14 +514,14 @@
 
     <!-- video background start -->
     <div class="ocean-wave-container">
-        <div class="video-container">
+        <div class="video-container" style="width: auto;">
             <video autoplay muted loop>
-                <source src="video/scuba diving.mp4" type="video/mp4">
+                <source src="video/scuba diving 5.mp4" type="video/mp4">
             </video>
         </div>
         <div class="ocean-content">
             <h1>Top Place in Goa</h1>
-            <button class="btn btn-primary">EXPLORE MORE</button>
+            <button class="btn btn-ocean">EXPLORE MORE</button>
         </div>
     </div>
 
@@ -558,17 +559,42 @@
         }
 
         .ocean-content h1 {
-            font-size: 3em;
+            font-family: cursive;
+            font-size: 4em;
             color: white;
             margin: 0;
+            /* text-align: center; */
         }
 
-        .ocean-content button {
+        .btn-ocean {
             font-size: 1.5em;
             padding: 15px 30px;
+            color: white;
+            border: 1px solid rgba(245, 245, 245, 0.784);
+            margin-top: 2rem;
+        }
+
+        .btn-ocean:hover {
+            background-color: white;
+        }
+
+        @media (max-width: 576px) {
+            .btn-ocean {
+                margin-top: 10px;
+                height: 3rem;
+                font-size: 1rem;
+                background-color: transparent;
+            }
+            .btn-ocean:hover {
+                background-color: white;
+            }
         }
     </style>
     <!-- video background end -->
+
+    <!-- counting start -->
+
+    <!-- counting end -->
 
     <!-- footer start -->
     <div class="bg-dark py-3">
@@ -664,6 +690,7 @@
     <script src="js/chatbot.js"></script>
     <script src="js/helper.js"></script>
     <script src="js/a.js"></script>
+    <script src="js/counting.js"></script>
 
 </body>
 
