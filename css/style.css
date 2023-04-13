@@ -614,17 +614,15 @@ video {
 .about-section {
   height: fit-content !important;
   background-color: white;
-  /* background: url("/img/w5.png"); */
+  background: url("img/w5.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .pricing-section {
-  /* local link was not working so I hosted this image online but it will autodelete fter 6 months from now */
-  /* the image is same as img/w3.jpg */
-  background: url("/img/cards/c10.webp");
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* background: url("img/i8.jpeg"); */
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
 }
 
 .video-link img {
