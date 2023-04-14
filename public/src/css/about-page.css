@@ -1,0 +1,117 @@
+/* loader css start */
+.loader {
+  border-top-color: #3498db;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* loader css end */
+
+/* image floating animation start */
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+/* image floating animation end */
+
+/* letter animation start */
+.letter-anim {
+  animation: typing 1s steps(13) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  /* font-size: 24px; */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+/* letter animation end */
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------- MEDIA QUERIES ----------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+
+/* floating image start */
+@media (max-width: 600px) {
+  .img-diver {
+    height: auto !important;
+    width: 190px !important;
+    top: 4rem !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .img-diver {
+    height: auto !important;
+    width: 180px !important;
+    top: 9rem !important;
+  }
+}
+
+@media (max-width: 1380px) {
+  .img-diver {
+    height: auto !important;
+    width: 180px !important;
+  }
+}
+/* floating image end */
+
+/* letter animation start */
+@media (max-width: 600px) {
+  .letter-anim {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: rgba(250, 235, 215, 0.186);
+  }
+
+  .mq-font-14 {
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+/* letter animation end */
