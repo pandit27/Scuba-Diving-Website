@@ -1,3 +1,8 @@
+/* tailwind components */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* loader css start */
 .loader {
   border-top-color: #3498db;
