@@ -18,15 +18,26 @@
 
     <!-- style tag -->
     <style>
-        @media (max-width: 600px) {
+        @media screen and (max-width: 545px) {
             .img-diver {
                 height: auto !important;
                 width: 190px !important;
-                top: 4rem !important;
+                top: 10rem !important;
             }
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 360px) and (max-height: 740px) {
+            .img-diver {
+                /* height: auto !important; */
+                /* width: 190px !important; */
+                top: 10rem !important;
+            }
+            p {
+                /* display: none; */
+            }
+        }
+
+        @media screen and (max-width: 900px) {
             .img-diver {
                 height: auto !important;
                 width: 180px !important;
@@ -100,10 +111,10 @@
 
 <body>
     <!-- page loading animation start -->
-    <div id="loader" class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-white z-50">
+    <!-- <div id="loader" class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-white z-50">
         <div class="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-20 w-20">
         </div>
-    </div>
+    </div> -->
 
     <style>
         .loader {
