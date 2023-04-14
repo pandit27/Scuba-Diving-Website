@@ -8,20 +8,21 @@ window.addEventListener("load", function () {
 /* window loader end */
 
 /* header start */
-const toggleSearch = () => {
-    document.getElementById("searchInput").classList.toggle("hidden");
-};
-// const mdOptionsToggle = () => {
-//     document.getElementById("md-searchbar").classList.toggle("hidden");
-//     document.getElementById("md-searchbar").classList.toggle("flex");
-// };
-const openMenu = () => {
-    document.getElementById("mobile-menu").classList.remove("hidden");
-};
-const closeMenu = () => {
-    document.getElementById("mobile-menu").classList.add("hidden");
-};
+// Get the navbar toggler and the navbar collapse element
+const navbarToggler = document.querySelector('.navbar-toggler');
+const navbarCollapse = document.querySelector('.navbar-collapse');
 
+// Add an event listener to the navbar toggler to toggle the visibility of the navbar collapse element
+navbarToggler.addEventListener('click', function () {
+  navbarCollapse.classList.toggle('show');
+});
+
+// Add an event listener to the window to hide the navbar collapse element when the user clicks outside of it
+window.addEventListener('click', function (event) {
+  if (!event.target.matches('.navbar-toggler')) {
+    navbarCollapse.classList.remove('show');
+  }
+});
 /* header end */
 
 /* carousel start */
