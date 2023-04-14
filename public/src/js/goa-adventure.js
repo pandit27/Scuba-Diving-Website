@@ -21,7 +21,6 @@ window.addEventListener('resize', () => {
         mobileMenu.classList.add('hidden');
     }
 });
-
 /* header end */
 
 /* carousel start */
