@@ -3,6 +3,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* necessary css to make page more responsive start */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* necessary css to make page more responsive end */
+
 /* loader css start */
 .loader {
   border-top-color: #3498db;
@@ -39,6 +52,7 @@
   animation-timing-function: ease-in-out;
   margin-left: 30px;
   margin-top: 5px;
+  transition: linear 2s;
 }
 
 @keyframes floating {
