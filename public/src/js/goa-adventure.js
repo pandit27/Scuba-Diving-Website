@@ -10,6 +10,7 @@ window.addEventListener("load", function () {
 /* header start */
 const mobileMenuButton = document.querySelector('.mobile-menu-button');
 const mobileMenu = document.querySelector('.mobile-menu');
+const button = document.querySelector('.nav-button');
 
 mobileMenuButton.addEventListener('click', () => {
     mobileMenu.classList.toggle('hidden');
