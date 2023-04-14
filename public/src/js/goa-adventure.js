@@ -7,6 +7,22 @@ window.addEventListener("load", function () {
 });
 /* window loader end */
 
+/* header start */
+const mobileMenuButton = document.querySelector('.mobile-menu-button');
+const mobileMenu = document.querySelector('.mobile-menu');
+
+mobileMenuButton.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+});
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+        mobileMenu.classList.add('hidden');
+    }
+});
+
+/* header end */
+
 /* carousel start */
 let defaultTransform = 0;
 const slider = document.getElementById("slider");
@@ -45,6 +61,5 @@ function goPrev() {
 prev.addEventListener("click", goPrev);
 // Start auto slide on page load
 startAutoSlide();
+/* carousel end */
 
-
-/* carousel end */ 
