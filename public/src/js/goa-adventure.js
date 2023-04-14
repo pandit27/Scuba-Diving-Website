@@ -8,19 +8,20 @@ window.addEventListener("load", function () {
 /* window loader end */
 
 /* header start */
-const mobileMenuButton = document.querySelector('.mobile-menu-button');
-const mobileMenu = document.querySelector('.mobile-menu');
-const button = document.querySelector('.nav-button');
+const toggleSearch = () => {
+    document.getElementById("searchInput").classList.toggle("hidden");
+};
+// const mdOptionsToggle = () => {
+//     document.getElementById("md-searchbar").classList.toggle("hidden");
+//     document.getElementById("md-searchbar").classList.toggle("flex");
+// };
+const openMenu = () => {
+    document.getElementById("mobile-menu").classList.remove("hidden");
+};
+const closeMenu = () => {
+    document.getElementById("mobile-menu").classList.add("hidden");
+};
 
-mobileMenuButton.addEventListener('click', () => {
-    mobileMenu.classList.toggle('hidden');
-});
-
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-        mobileMenu.classList.add('hidden');
-    }
-});
 /* header end */
 
 /* carousel start */
