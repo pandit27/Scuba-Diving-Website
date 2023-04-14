@@ -6,3 +6,12 @@ window.addEventListener("load", function () {
     }, 600);
 });
 /* window loader end */
+
+/* carousel start */
+import {
+    Carousel,
+    initTE,
+} from "tw-elements";
+
+initTE({ Carousel });
+/* carousel end */ 
