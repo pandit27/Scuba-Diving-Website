@@ -7,3 +7,16 @@
 /* ------------------------------------------------------------------------------------------------------------------- */
 /* ----------------------------------------------- MEDIA QUERIES ----------------------------------------------------- */
 /* ------------------------------------------------------------------------------------------------------------------- */
+
+/* necessary css to make page more responsive start */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+/* necessary css to make page more responsive end */
