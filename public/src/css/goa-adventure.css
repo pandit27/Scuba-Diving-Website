@@ -45,6 +45,17 @@ body {
 }
 /* loader css end */
 
+/* header css start */
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu-button {
+  cursor: pointer;
+}
+
+/* header css end */
+
 /* carousel css start */
 
 /* carousel css end */
