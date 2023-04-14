@@ -16,13 +16,9 @@ let autoSlideTimer; // Timer for auto slide
 
 function goNext() {
     defaultTransform -= slideWidth;
-    if (Math.abs(defaultTransform) >= slider.scrollWidth / 1.7) defaultTransform = 0;
-    slider.style.transform = "translateX(" + defaultTransform + "px)";
-}
-
-function goPrev() {
-    if (Math.abs(defaultTransform) === 0) defaultTransform = 0;
-    else defaultTransform += slideWidth;
+    if (Math.abs(defaultTransform) >= slider.scrollWidth - slider.clientWidth) {
+        defaultTransform = 0;
+    }
     slider.style.transform = "translateX(" + defaultTransform + "px)";
 }
 
@@ -32,22 +28,23 @@ function startAutoSlide() {
     }, autoSlideInterval);
 }
 
-function stopAutoSlide() {
-    clearInterval(autoSlideTimer);
+
+function goNext() {
+    defaultTransform = defaultTransform - 398;
+    var slider = document.getElementById("slider");
+    if (Math.abs(defaultTransform) >= slider.scrollWidth / 1.7) defaultTransform = 0;
+    slider.style.transform = "translateX(" + defaultTransform + "px)";
 }
-
-// Add event listeners for previous and next buttons
-document.getElementById("next").addEventListener("click", () => {
-    stopAutoSlide();
-    goNext();
-});
-
-document.getElementById("prev").addEventListener("click", () => {
-    stopAutoSlide();
-    goPrev();
-});
-
+next.addEventListener("click", goNext);
+function goPrev() {
+    var slider = document.getElementById("slider");
+    if (Math.abs(defaultTransform) === 0) defaultTransform = 0;
+    else defaultTransform = defaultTransform + 398;
+    slider.style.transform = "translateX(" + defaultTransform + "px)";
+}
+prev.addEventListener("click", goPrev);
 // Start auto slide on page load
 startAutoSlide();
+
 
 /* carousel end */ 
